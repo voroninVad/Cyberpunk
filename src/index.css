@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Archangelsk';
+  src: url('./fonts/archangelsk.eot');
+  src: local('archangelsk'),
+      url('./fonts/archangelsk.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/archangelsk.woff') format('woff'),
+      url('./fonts/archangelsk.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root{
+  --fontArch: 'Archangelsk', sans-serif;
+}
+
+
+@media (max-width:1920px){
+  * {
+    margin: 0;
+    padding: 0;
+    width: 1900px;
+  }
+}
+@media (max-width:1024px){
+  * {
+    margin: 0;
+    padding: 0;
+    width: 1024px;
+  }
+}
+@media (max-width:320px){
+  * {
+    margin: 0;
+    padding: 0;
+    width: 320px;
+  }
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
